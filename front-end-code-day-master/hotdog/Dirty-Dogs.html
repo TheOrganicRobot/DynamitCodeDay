@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+
+    #first-jumbo{
+      background: url('Ribbit collage-Final.jpg') center center;
+      height: 512px;
+      margin:0px;
+    }
+    #second-jumbo{
+      height: 550px;
+      background-color:#FAFAFA;
+      text-align: center;
+      margin-bottom:0;
+    }
+    nav {
+      margin: 0px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09);
+      min-height: 80px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1em;
+      font-weight: 900;     
+    }
+     li > a {
+      color:black;
+    }
+    .navbar-nav > li {
+  padding-left:30px;
+  padding-right:30px;
+    }
+    body{
+      font-family: 'Montserrat', sans-serif;
+    }
+    div > h1 {
+      color:gray;
+    }
+    div > i { 
+      margin:30px;
+    }
+    .btn-lg{
+      background-color: #295871;
+      color: #FAFAFA;
+      padding:15px 30px 15px 30px;
+      margin:50px;
+      border-radius: 7px;
+    }
+    div > img {
+      max-width: 90%;
+    }
+   .col-xl-6 {
+     padding: 0;
+   }
+     div > p {
+       width:65%;
+       margin: auto;
+       color: gray;
+     }
+     div > h4 {
+       width:65%;
+       margin: auto;
+       
+     }
+     .dashline::before {
+      content: "";
+      position: absolute;
+      left: 65px;
+      height: 15px;
+      border-bottom: 1px solid #7F89A5;
+      border-width: 2px;
+      top: 0;
+      width: 40px;
+
+     }
+     footer {
+        padding: 10px 20px;
+        background: #EFEFEF;
+        color: GRAY;
+      }
+      footer > p {
+        display: inline-block
+      }
+    
+    </style>
+
+    <title>Dirty Dogs</title>
+
+
+  
+</head>
+<body>
+  <header>
+    <div class="jumbotron jumbotron-fluid" id="first-jumbo">
+    </div>
+  </header>
+  
+  <nav class="navbar navbar-expand-lg justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">MENU</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CATERING</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+    </ul>
+  
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid" id="second-jumbo">
+      <i class="fas fa-hotdog fa-4x"></i><br>
+    <h1>Dirty Dogs serves all beef, vegan and<br>vegetarian hot dogs.</h1>
+    <button type="button" class="btn-lg">More Dogs 'n Make Em Hot</button>
+  </div>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-6 my-auto dashline">
+        <h4><strong>Gourmet All Beef Hotdogs</strong></h4>
+          <br/>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+      </div>
+      <div class="col-xl-6">
+        <img src='BeefDog.jpg' class="img-responsive img-fluid w-100" id="displaydogs">
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-6">
+          <img src='VeggieDog.jpg' class="img-responsive img-fluid w-100" id="displaydogs">
+          </div>
+          <div class="col-xl-6 my-auto dashline">
+              <h4><strong>Vegan Hotdogs</strong></h4>
+              <br/>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xl-6 my-auto dashline">
+          <h4><strong>Vegetarian Hotdogs</strong></h4>
+          <br/>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+      </div>
+      <div class="col-xl-6">
+        <img src='VeganDog.jpg' class="img-responsive img-fluid w-100" id="displaydogs">
+      </div>
+    </div>
+  </div>
+
+
+  <div>
+    <footer>
+
+    </footer>
+  </div>
+ <!-- Order of Operations -->
+
+ <!-- Banner -->
+ <!-- NavBar -->
+ <!-- Hero Text w/CTA -->
+ <!-- Beef, Vegan, Veggie Dogs w/Text -->
+ <!-- Footer -->
+</body>
+
+<footer>
+    <p>®2016 Dirty Dogs all right reserved.</p>
+    <p class="float-right">275 Marconi Blvd. Columbus, Ohio 43215  |  614.538.0095  | Contact Us</p>
+  </footer>
+</html>
