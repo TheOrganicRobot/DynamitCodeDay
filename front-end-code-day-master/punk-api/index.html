@@ -3,17 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Punk API | Code Day</title>
-	<link rel="stylesheet" type="text/css" href="/dist/styles/main.css">
+	<link rel="stylesheet" type="text/css" href="dist/styles/main.css">	
 </head>
+
 <body>
-
 	<main>
-		<h1>Punk API</h1>
-		<button>Load Some Beerss</button>
-		<div class="beers"></div>
+		<div id="content">	
+			<h1>Punk API</h1>
+				<button class="button" id="button" onclick="loader()">Load Some Beers!</button>				
+		
+			</div>
+		<div id="resize">
+				
+				<button class="btn" onclick="two()">2</button>
+				<button class="btn active" onclick="four()">4</button>
+		</div>
+		<div id="loader">
+
+			</div>
+		
+		<div class="beers" id="root">			
+		</div>
 	</main>
-
-	<script src="/dist/scripts/main.js"></script>
-
+	<script src="dist/scripts/main.js"></script>
 </body>
 </html>
